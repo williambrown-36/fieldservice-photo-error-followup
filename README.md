@@ -44,3 +44,7 @@ The code stays simple on purpose — here's what to set up before going live: Th
 
 **Fieldservice Photo Error Followup: Observability**
 - **Fieldservice Photo Error Followup:** Capture on the server (`POST /v1/errors/capture`); scrub PII before sending. Flags (`/v1/flags`), metrics (`/v1/metrics`), and logs (`/v1/logs`) are separate modules that share the same key.
+
+## Further reading
+
+- [Node.js Rollbacks: How to Choose API Error Tracking With Event Search](docs/node-js-rollbacks-how-to-choose-api-error-trackin-16eadu.md)
